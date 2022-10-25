@@ -18,8 +18,10 @@
 ## Documentation:
 ### 1) checkValid(a): checks if the matrix is valid by comparing the amount of every row element with the first one;
  if the matrix is valid, you may get some useful information like size and shape;\
- Example:\
- `ChukMatrix.checkValid(matrix1)`\
+ Example:
+ ```javascript
+ ChukMatrix.checkValid(matrix1)
+ ```
  Output:
  ```
  This matrix is valid!
