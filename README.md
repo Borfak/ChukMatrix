@@ -19,7 +19,7 @@
 ### 1) checkValid(a): checks if the matrix is valid by comparing the amount of every row element with the first one;
  if the matrix is valid, you may get some useful information like size and shape;\
  Example:\
- `Matrix.checkValid(matrix1)`\
+ `ChukMatrix.checkValid(matrix1)`\
  Output:
  ```
  This matrix is valid!
@@ -30,7 +30,7 @@
 ### 2) checkValidDiff(a, b): checks if the matrices have the same size to perform additive operations;
  Example:
  ```javascript
- Matrix.checkValidDiff(matrix1, matrix)
+ ChukMatrix.checkValidDiff(matrix1, matrix)
  ```
  Output:\
  `Matrices are match!`
@@ -38,7 +38,7 @@
 ### 3) minus(a, b) and plus(a, b): performing addition and substraction operations;
  Example:
  ```javascript
- Matrix.minus(matrix1, matrix2)
+ ChukMatrix.minus(matrix1, matrix2)
  ```
  Output:
  ```-14,-13,7
@@ -49,7 +49,7 @@
 ### 4) selfMultiply(a, n): performs multiplying of each element of a matrix by n (number)
  Example:
  ```javascript
- Matrix.selfMultiply(matrix1, 2)
+ ChukMatrix.selfMultiply(matrix1, 2)
  ```
  Output:
  ```
@@ -65,7 +65,7 @@
 ### 5) transpose(a): performs transposing of a matrix
  Example:
  ```javascript
- Matrix.transpose(a)
+ ChukMatrix.transpose(a)
  ```
  Output:
  ```
@@ -78,7 +78,7 @@
 ### 6) multiply(a, b): multiplies the matrix a by the matrix b
  Example:
  ```javascript
- Matrix.multiply(matrix1, matrix2)
+ ChukMatrix.multiply(matrix1, matrix2)
  ```
  Output:
  ```
@@ -96,7 +96,7 @@
   [3, -1, 4],
   [1, 2, 4]
  ]
- Matrix.determ(matrix1)
+ ChukMatrix.determ(matrix1)
  ```
  Output:
  `The determinator of this matrix is: -7`
@@ -104,7 +104,7 @@
 ### 8) reverse (a): finds reversed to matrix to matrix a
  Example:
  ```javascript
- Matrix.reverse(matrix1)
+ ChukMatrix.reverse(matrix1)
  ```
  Output:
  ```
